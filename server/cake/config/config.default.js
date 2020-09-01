@@ -46,7 +46,8 @@ module.exports = appInfo => {
   // 跨域配置
   config.cors = {
     origin: "*",
-    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
+    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH',
+    credentials: true
   }
 
   //post请求的安全认证

@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1598863216200'); /* IE9 */
+  src: url('iconfont.eot?t=1598863216200#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOcAAsAAAAAB9AAAANOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDFIJ1ATYCJAMQCwoABCAFhG0HQBvfBhHVm5PIfh7YNpH8PTU70tPInqz2HjxfNvX93T35TIRVEFgOAvRAIIVL2SGsMiOr3Ix4U11RYSVtrNce2TfkmOMgSRHiB8D/HDNdlUD+tc0lo3W0N8DxgAbUcVlkdyB3gnwfsKH7uR4C+JFEAdKkWZsu2BjMRQLImJHDB2JnrJiGRsFGcFTsNMg6LGy1XD0A1gY/L58pExsUlsZc2WFY0yE08ITXFOt53nn08RDIpnMD/D7QQAFgQEZUegeho2wBGj/1bwxVgI2NAk+450lNsdeL8qNobetfHmgUAuLArA8AoIJyGjzhjjTRPUEBFNQUyx/gWgYAG/AHJgHnFiYlgREGCxXqZ8TAxwYEpAWMDThyQqz5J7MDDx/HzDuW0W3lzvlbVmyat92/f4AJtCYP6TS8R4dunbvSg4a/fNn1xYsuLlc3t7vrjRcp+182ve1OP+Ca/NgtJeJyz7yXbb3y4ytPitvdva009rlcwyRpz/F3fdalOMNqw5wp60KWBm1LQ27nBfyI8VocPwJuX1jX815ELCwsPF9Q6Bx53+m88CzxQnX1/bCTvcTpVL1A5LX0kp5S7ZReKMLSnp06NG8RGekQOgwgWNZoDuNok9nt1MzDR2YpEpEoUrXLrj66rOJgrWyLGJo9NELve/Nmn5vWb9z6oDJ6RKhsO1L7P116TJ3aA1XCiVHdPVEpS4QvYwIA3uqfrgLQ+coFXtql5/2+3yE+KLxT/+A6f21/A8DbSa8mBGEvQzcd/0DWWfazZB27jKYwbcYoSkeq1xqKsODezfhZDvhFRQjjwxT+SEjcgi3IEBQ+JILGJgNpsAVg4U8FOLCpD37k03y/P+FMQiPGF8hjMYAQwllQBHEZNCE8RBrse7CI4is4CBENfnST8BP9yRLcn86CQlFT+SdfcW9sh57Cxgfs1BaSVgTUD2T0CUqjJF+4o4dMsWacbaZqyAh3dIOboW2ZBuGASiOnOuRxbKq+KKq4W5w4CwpFTeWffMW98frrqfD9D9ipLaShoyr8gYx+eEqjpAPyru07ddzKS8bZZqqGjHBHN3CjtbJMQ/W0gEojNyA95DH1Ml210fL67g0PAH6YjzWiRIsRi91kx1Pwu/+EyvnNl2ssFgAA') format('woff2'),
+  url('iconfont.woff?t=1598863216200') format('woff'),
+  url('iconfont.ttf?t=1598863216200') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1598863216200#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconshouji:before {
+  content: "\e72f";
+}
+
+.iconyuechi:before {
+  content: "\e6d0";
+}
+
+.iconwode:before {
+  content: "\e613";
+}
+

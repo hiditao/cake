@@ -12,6 +12,14 @@ class HomeController extends Controller {
 
     ctx.body = result;
   }
+
+  async getByType() {
+    const { ctx } = this;
+    console.log("params tid----" + ctx.params.tid);
+    let result = await ctx.service.home.getByType(ctx.params.tid);
+
+    ctx.body = result;
+  }
 }
 
 module.exports = HomeController;

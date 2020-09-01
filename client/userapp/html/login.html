@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
+
+    <script src="../utils/ajax.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="w">
+        <img src="../img/logo_new.png" alt="">
+    </header>
+
+    <div class="body">
+        <div class="w">
+            <div class="box fr">
+                <div class="title">
+                    <div style="color: #ff3500;">手机验证登录</div>
+                    <div class="space"></div>
+                    <div>账户密码登录</div>
+                </div>
+                <form action="javascript:;">
+                    <div class="row">
+                        <span class="iconfont iconshouji icon"></span>
+                        <input type="text" class="bottomline long" placeholder="手机号码">
+                    </div>
+                    <div class="row twocode">
+                        <span class="iconfont iconyuechi icon"></span>
+                        <input type="text" class="short bottomline" placeholder="请输入验证码">
+                        <!-- <img src="http://localhost:8080/captcha" class="verify-code" onclick="{$(event.target).attr('src','/captcha?'+Math.random())}"> -->
+                        <!-- <img class="verify-code" src="../img/logo.png" alt=""> -->
+                        <a href="javascript:;" class="captcha change-captcha"></a>
+                        <span class="change-code change-captcha">换一个</span>
+                    </div>
+                    <div class="row">
+                        <span class="iconfont iconyuechi icon"></span>
+                        <input type="text" class="short bottomline" placeholder="短信验证码">
+                        <button class="send-code">发送验证码</button>
+                    </div>
+                    <div class="row login-row">
+                        <button class="login">立即登录</button>
+                    </div>
+                </form>
+
+                <div class="forget">
+                    <a href="#" class="fl forget-pwd">忘记密码</a>
+                    <span class="fr">还没有账号? <a class="regist" href="./register.html">立即注册</a></span>
+                </div>
+
+                <div class="other-login">
+                    <span>其他登录方式</span> 
+                </div>
+
+                <div class="other-method">
+                    <a href="#">
+                        <img src="../img/wx.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="../img/qq.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

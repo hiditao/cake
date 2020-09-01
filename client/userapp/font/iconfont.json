@@ -1,0 +1,30 @@
+{
+  "id": "2037025",
+  "name": "cake",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "我的项目",
+  "glyphs": [
+    {
+      "icon_id": "954427",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e72f",
+      "unicode_decimal": 59183
+    },
+    {
+      "icon_id": "15685189",
+      "name": "钥匙",
+      "font_class": "yuechi",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "4550493",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    }
+  ]
+}

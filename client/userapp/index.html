@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
 
     <script src="./js/goodslist.js"></script>
+    <script src="./js/render.js"></script>
+    <script src="./utils/ajax.js"></script>
+
 
 
 </head>
@@ -16,27 +21,65 @@
 <body>
     <!-- 头部 start -->
     <header>
-
+        <div class="w">
+            <ul class="fl title-left">
+                <li><img class="logo fl" src="./img/logo.png" alt=""></li>
+                <li>首页</li>
+                <li>蛋糕</li>
+                <li>0轻享</li>
+                <li>甜点心礼</li>
+                <li>合作专区</li>
+                <li>立即兑换</li>
+            </ul>
+            <ul class="fr title-right">
+                <li>成都</li>
+                <li>查询地址</li>
+                <li>搜索</li>
+                <li class="mine">
+                    <span class="iconfont iconwode"></span>
+                    <div class="down-arrow"></div>
+                    <div class="user">
+                        <a href="./html/login.html">登录</a>
+                        <a href="./html/register.html">注册</a>
+                    </div>
+                </li>
+                <li>购物袋</li>
+            </ul>
+        </div>
     </header>
     <!-- 头部 end -->
 
     <!-- 页面主体 start -->
-    <div class="center">
-        <!-- 分类 -->
-        <ul>
-            <li></li>
-        </ul>
+    <div class="center w">
+        <div class="condition">
+            <!-- 分类 -->
+            <ul class="type">
+                <li><p>口味:</p></li>
+                <li><a href="javascript:;" style="color: #ff3500;">全部</a></li>
+                <li><a href="javascript:;">雪域口味</a></li>
+                <li><a href="javascript:;">芝士口味</a></li>
+                <li><a href="javascript:;">巧克力味</a></li>
+                <li><a href="javascript:;">慕斯口味</a></li>
+                <li><a href="javascript:;">奶油口味</a></li>
+            </ul>
 
-        <!-- 规格 -->
-        <ul>
-            <li></li>
-        </ul>
+            <!-- 规格 -->
+            <ul class="size">
+                <li><p>规格:</p></li>
+                <li><a href="javascript:;" style="color: #ff3500;">全部</a></li>
+                <li><a href="javascript:;">2-4人食</a></li>
+                <li><a href="javascript:;">5-8人食</a></li>
+                <li><a href="javascript:;">10-12人食</a></li>
+                <li><a href="javascript:;">15-20人食</a></li>
+            </ul>
+        </div>
+        <script src="./js/type.js"></script>
 
         <!-- 商品列表 start -->
         <!-- 1240 -->
         <ul class="goodslist">
             <!-- 302*420 -->
-            <li class="listitem">
+            <!-- <li class="listitem">
                 <img src="https://imagecdn.lapetit.cn/postsystem/docroot/images/goods/201212/10800/list_10800.jpg?v=1571626074"
                     alt="">
                 <p class="title">雪域</p>
@@ -47,12 +90,13 @@
                     <span class="newprice">￥218</span>
                 </p>
                 <a href="#">加入购物车</a>
-            </li>
+            </li> -->
+           
         </ul>
         <!-- 商品列表 end  -->
     </div>
     <!-- 页面主体 end -->
-    
+
 
 
     <footer></footer>

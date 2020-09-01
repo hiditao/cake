@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.w {
+    width: 1240px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
