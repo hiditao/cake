@@ -11,4 +11,5 @@ module.exports = app => {
 
   // 验证码
   router.get("/captcha", controller.login.twoCode);
+  router.get("/message", controller.login.message)
 };

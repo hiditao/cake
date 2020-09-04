@@ -8,11 +8,11 @@ $.http = function(options, callback) {
     let xhr = new XMLHttpRequest();
     xhr.open(options.method, options.url);
     xhr.withCredentials = credentials;
-    xhr.send();
+    xhr.send(data);
     xhr.onreadystatechange = function() {
         if(xhr.readyState == 4 ) {
-            callback(JSON.parse(xhr.response));
+            console.log(xhr.responseText, typeof xhr.responseText)
+            callback(JSON.parse(xhr.responseText));
         }
     }
-
 }

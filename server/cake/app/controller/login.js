@@ -15,6 +15,14 @@ class LoginController extends Controller {
         // ctx.body = `${img}<br><a href="javascript: window.location.reload();">${text}</a>`
         ctx.body = captcha; // 返回一张图片
     }
+
+    async message() {
+        const { ctx } = this;
+
+        let result = await ctx.service.login.message();
+
+        ctx.body = result;
+    }
 }
 
 module.exports = LoginController;

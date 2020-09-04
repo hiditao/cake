@@ -99,6 +99,7 @@ input {
     color: #fff;
     border: none;
     font-size: 12px;
+    outline: none;
 }
 .twocode {
     display: flex;

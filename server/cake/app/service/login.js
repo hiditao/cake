@@ -19,6 +19,15 @@ class LoginService extends Service {
 
         return captcha;
     }
+
+    async message() {
+
+        let r = Math.random().toString().substr(-6);
+        
+        console.log(r, typeof r)
+
+        return {code: 0, msg: null, data: r};
+    }
 }
 
 module.exports = LoginService;
